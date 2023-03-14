@@ -1,0 +1,25 @@
+{
+  "name": "node_module_kdt_230314",
+  "version": "1.0.0",
+  "description": "\"연습중~\"",
+  "main": "module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaekyungS/node_module_KDT_230314.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "\"나\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaekyungS/node_module_KDT_230314/issues"
+  },
+  "homepage": "https://github.com/HaekyungS/node_module_KDT_230314#readme",
+  "dependencies": {
+    "pokemon": "^2.3.4"
+  }
+}
