@@ -1,0 +1,28 @@
+{
+  "name": "module-db-prac_230318",
+  "version": "1.0.0",
+  "description": "laptop db contect",
+  "main": "DB_contect.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaekyungS/module-DB-prac_230318.git"
+  },
+  "keywords": [
+    "db",
+    "contect",
+    "mysql"
+  ],
+  "author": "haekyungseong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaekyungS/module-DB-prac_230318/issues"
+  },
+  "homepage": "https://github.com/HaekyungS/module-DB-prac_230318#readme",
+  "dependencies": {
+    "mysql2": "^3.2.0"
+  }
+}
