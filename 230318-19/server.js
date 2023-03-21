@@ -7,7 +7,6 @@ export default serveron = () => {
     }
     if (request.method === 'GET' && request.url.startsWith('/database')) {
       response.writeHead(200, { 'Content-Type': 'text/html' });
-      response.writeHead(200, { 'Content-Type': 'text/html' });
       response.end();
     }
   })
