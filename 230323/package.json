@@ -1,0 +1,23 @@
+{
+  "name": "230323",
+  "version": "1.0.0",
+  "description": "db_html_data_submit",
+  "main": "DB_contect.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "db",
+    "html",
+    "nodejs",
+    "submit",
+    "contect"
+  ],
+  "author": "HaekyungSeong",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.2.0"
+  }
+}
