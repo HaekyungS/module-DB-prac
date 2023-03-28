@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="/" method="post" id="Submittest">
+    <input type="text" name="id">
+    <input type="text" name="pass">
+    <input type="submit" value="GOgo">
+  </form>
+  <script>
+    const submit = document.getElementById('Submittest')
+    submit.onsubmit = () => {
+      if (document.getElementsByTagName('input').value === undefined) {
+        window.alert('빈칸없이 입력하세요.')
+        history.go(-1)
+      }
+    }
+    // 안됨. 사용방안 분석해보기 => 식이 잘못됨.undefined 이면 인데 아니면으로 함.
+    // => 그래도 안돼넹
+    // => 이제 자꾸 입력을 해도 입력하라 뜸 으흠
+  </script>
+</body>
+
+</html>
