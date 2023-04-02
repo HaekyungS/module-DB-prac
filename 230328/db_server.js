@@ -1,18 +1,18 @@
 import mysql from 'mysql2'
 
 const connection = mysql.createConnection({
-  host: '192.168.12.215',
-  user: 'loginadmin',
-  password: 'login',
-  database: 'login',
+  host: '192.168.0.156',
+  user: 'admin_seong',
+  password: 'zoehae',
+  database: 'IA',
   port: 3306
 });
 
 connection.connect();
 
-connection.query(`select * from login`,(err,result,field)=>{
+connection.query(`show tables`,(err,result,field)=>{
   if(err) throw err;
-    console.log((result.find(element=>element.ID === 'zoe')).Pass)
+    console.log(result)
 })
 
 connection.end()
