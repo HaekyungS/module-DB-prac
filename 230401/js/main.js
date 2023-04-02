@@ -1,3 +1,3 @@
 import { createDoc } from "./module.js";
 
-createDoc(div,document.body);
+createDoc('div',document.body);
