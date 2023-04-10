@@ -24,7 +24,7 @@ const inputpassprop = {
   'name': 'password'
 }
 
-createDoc('input', formtag, inputtextprop);
+createDoc('input', formtag, inputpassprop);
 
 const inputsubmitprop = {
   'type': 'submit',
